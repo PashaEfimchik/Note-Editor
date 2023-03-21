@@ -1,0 +1,22 @@
+$font-form: Helvetica, sans-serif;
+@import "Header";
+
+.FilterTagSelector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-family: $font-form;
+  font-size: 1.4em;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.creatableFilterSelector {
+  padding: .5em 0;
+  font-size: .8em;
+  font-weight: 700;
+  width: 230px;
+  color: $primary-color;
+}
